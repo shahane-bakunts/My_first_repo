@@ -1,0 +1,103 @@
+html {
+  font-family: "Nerko One", cursive;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  margin: 0px;
+}
+#sh-logo {
+  height: 60px;
+  float: left;
+  position: relative;
+  margin: 0px 0px 0px 100px;
+}
+
+.nav {
+  text-align: right;
+  margin-right: 100px;
+}
+.menu ul {
+  overflow: hidden;
+}
+.menu li {
+  display: inline-block;
+  padding: 10px;
+}
+.menu li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  font-variant-caps: all-petite-caps;
+}
+
+div.hero-background {
+  margin-top: 50px;
+  background-image: url("SH-Hero\ image.png");
+  background-color: rgba(180, 158, 234, 0.1);
+  height: 600px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: left;
+  padding-top: 100px;
+  margin-right: 0px;
+  width: 100%;
+  float: left;
+}
+
+div.hero-text {
+  margin-left: 200px;
+}
+
+#d400px {
+  width: 400px;
+  padding-top: 20px;
+}
+#myname {
+  font-size: 64px;
+  color: #25cdc8;
+  margin: 0px;
+}
+
+p {
+  font-family: "Nerko One", cursive;
+  font-size: 20px;
+  color: #271458;
+  text-align: left;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 40px;
+}
+.button {
+  align-items: center;
+}
+button {
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.social-icons li {
+  display: block;
+  overflow: hidden;
+  padding-top: 20px;
+  float:left;
+  padding-left: 20px;
+}
+#social {
+  float: left;
+  margin-left: -150px;
+  position: absolute;
+  
+}
+.social-icons img {
+  height: 45px;
+}
