@@ -135,33 +135,46 @@ button:hover {
   display:flex;
   justify-content:start;
   }
+.habbits{
+  padding-right: 205px;
+  padding-left: 180px;
+
+}
+  .habbits ul{
+    display:flex;
+    justify-content: space-between;
+  }
+  .habbits li{
+    overflow: hidden;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
 .content{
-  padding-left: 100px;
-  grid: 10px;
   display:flex;
   justify-content:start;
+  padding-right: 205px;
+  padding-left: 205px;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 .about-content .content p{
   float:left;
+  margin-right: 200px;
 }
+.content .text{
+  width:80%;
+}
+
 .food-pantry img, .government img{
   height: 318px;
   margin-top:20px;
+  padding-right: 50px;
 }
 .delivereez img, .packventure img{
-  height: 343.25px;
+  width: 442px;
   margin-top:20px;
-}
-.habbits{
-  display:flex;
-  justify-content: space-around;
-
-}
-.habbits li{
-  overflow: hidden;
-  text-decoration: none;
-  display: inline-block;
-
+  padding-left: 200px;
 }
 #footer{
   margin-top: 300px;
