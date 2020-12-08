@@ -144,11 +144,12 @@ button:hover {
 .about-content .content p{
   float:left;
 }
-.food-pantry{
-  
-}
-.food-pantry img{
+.food-pantry img, .government img{
   height: 318px;
+  margin-top:20px;
+}
+.delivereez img, .packventure img{
+  height: 343.25px;
   margin-top:20px;
 }
 .habbits{
