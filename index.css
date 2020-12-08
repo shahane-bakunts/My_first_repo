@@ -5,6 +5,7 @@ html {
 }
 body {
   margin: 0px;
+  
 }
 #sh-logo {
   height: 60px;
@@ -43,6 +44,7 @@ div.hero-background {
   margin-right: 0px;
   width: 100%;
   float: left;
+  position: absolute;
 }
 
 div.hero-text {
@@ -70,12 +72,13 @@ p {
 h1 {
   font-size: 40px;
 }
-.button {
+button {
   align-items: center;
 }
 button {
+  background-color: #25CDC8;
   border: none;
-  color: red;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -83,8 +86,21 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 10px;
+}
+button:hover {
+  background-image: linear-gradient(to bottom right, #271458,  #25CDC8);
+}
+*:focus {
+  outline:none;
+  border: 1px solid blue;
+  border-radius: 10px;
+  box-shadow: (0 0 0 3px #271458);
 }
 
+.delivereez-content, .packventure-content{
+  background-color: rgba(180, 158, 234, 0.1);
+}
 .social-icons li {
   display: block;
   overflow: hidden;
@@ -94,10 +110,66 @@ button {
 }
 #social {
   float: left;
-  margin-left: -150px;
-  position: absolute;
-  
+  display: flex;
 }
 .social-icons img {
   height: 45px;
+  padding:0px;
 }
+#about-me{
+  margin-top: 766px;
+}
+.title {
+  background-color: #271458;
+  height: 200px;
+  width: 100%;
+  color: white;
+}
+.title h1, .title p{
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.about-content{
+  display:flex;
+  justify-content:start;
+  }
+.content{
+  padding-left: 100px;
+  grid: 10px;
+  display:flex;
+  justify-content:start;
+}
+.about-content .content p{
+  float:left;
+}
+.food-pantry{
+  
+}
+.food-pantry img{
+  height: 318px;
+  margin-top:20px;
+}
+.habbits{
+  display:flex;
+  justify-content: space-around;
+
+}
+.habbits li{
+  overflow: hidden;
+  text-decoration: none;
+  display: inline-block;
+
+}
+#footer{
+  margin-top: 300px;
+  background-color: #271458;
+  height: 100px;
+}
+hr{
+  border: 2px solid white;
+  width: 50%;
+margin-top: 20px;
+}
+
+
