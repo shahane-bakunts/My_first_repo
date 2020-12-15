@@ -1,0 +1,93 @@
+html {
+  font-family: "Roboto";
+  font-style: normal;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  margin: 0px;
+}
+
+section {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+hr {
+  border: solid 1px black;
+}
+img {
+  height: 350px;
+}
+
+/* CSS-flex */
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+}
+.flexContainer div {
+  width: 33%;
+}
+
+
+/* .aboutContainerFlex{
+  display: flex;
+  
+ 
+  
+} */
+.aboutContent{
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: start;
+  
+}
+.aboutContent div{ 
+  width: 100%;
+
+
+}
+.skills{
+  padding-left: 20%;
+}
+
+.habbits {
+  padding-right: 205px;
+  padding-left: 180px;
+}
+.habbits ul {
+  display: flex;
+  justify-content: space-between;
+}
+.habbits li {
+  overflow: hidden;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .flexContainer {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .flexContainer div {
+    width: 100%;
+    /* padding: 50px 0; */
+    /* border: solid 1px black; */
+    /* text-align: center; */
+  }
+  .aboutContent{
+    display:block;
+    width:100%;
+    justify-content: center;
+  }
+  .skills{
+    padding-left: 0%;
+  }
+}
