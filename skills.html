@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add Bootstrap CSS Here on line 10-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/skills.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -15,7 +17,25 @@
     <title>Shahane</title>
   </head>
 <body>
-  <header>
+  <!-- Paste Navigation Code Below -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" href="home.html">
+    <img src="images/SH-logo.png" class="my-logo" height="60" alt="logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link active text-right" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link text-right" href="work.html">Work</a>
+      <a class="nav-item nav-link text-right" href="skills.html">About</a>
+      <a class="nav-item nav-link text-right" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+      <!-- <a class="nav-item nav-link text-right" href="#" tabindex="-1" aria-disabled="true">Hobby</a> -->
+    </div>
+  </div>
+</nav>
+  <!-- <header>
     <nav>
     <div class="nav">
       <a href="home.html"><img id="sh-logo" src="Images/SH-logo.png" alt="Portfolio pic" /></a>
@@ -28,36 +48,39 @@
         </ul>
       </nav>
     </div>
-  </header>
+  </header> -->
 
 <!--  My UX Skills section coded using CSS flex -->
     
     <div class="title">
       <h1>About</h1>
-      <p>You are what your skills are and you can escpe from it</p>
+      <p>Experience is the best teacher</p>
     </div> 
   <section class="mySkills" id="about-me">
   <div class="flexContainer">
       <div>
-          <img src="" alt="User Research icon"></a>
+          <img src="images/undraw_researching_22gp.svg" class="skill-icon" alt="User Research icon"></a>
           <h3>User Research </h3>
-          <p>User Research Lorem ipsum </p>
+          <p>Storyboarding, Decision Flow Diagrams,</p> 
+          <p>User Need Identification, User Experience Interviewing, Persona Creation,</p> 
+          <p> Insight Synthesis </p>
       </div>
       <div>
-          <img src="" alt="User Research icon"></a>
+          <img src="Images/undraw_site_content_ihgn.svg" class="skill-icon" alt="User Research icon"></a>
           <h3>User Interface design </h3>
-          <p>User Research Lorem ipsum </p>
+          <p> Atomic Design, UI Grids and Composition, </p> 
+          <p>Color Theory, Heuristic Evaluation,  
+          <p>Typography, Interaction Design and Iconography </p>
       </div>
       <div>
-          <img src="" alt="User Research icon"></a>
+        <img src="images/undraw_voice_interface_eckp.svg" class="skill-icon"  alt="User Research icon"></a>
           <h3>Web development </h3>
-          <p>User Research Lorem ipsum </p>
+          <p>Git, HTML/Css, Bootstrap, VS Code, Java Script, jQueri</p>
       </div>
     </div>
   
     <div class="aboutContent">
       <div>
-      <p>
         Shahane is a curious, patient, and persistent person. Throughout
         her career, she had to be a self-learner by watching online
         classes and exploring tutorials in a non-native language, because
@@ -67,55 +90,61 @@
         the industry. And also she learned to create websites using
         WordPress and use the skill to freelance in Upwork after moving to
         the USA.
-      </p>
     </div>
-      <div class="skills">
-      <h3>Skills</h3>
+   
+    <div class="hobby">
       <ul>
-        <li>Figma</li>
-        <li>Miro</li>
-        <li>InVision</li>
-        <li>HTML/CSS</li>
-        <li>VS Code</li>
-        <li>WordPress</li>
-        <li>Bootstrap</li>
-        <li>Github</li>
-        <li>Codepen</li>
-        <li>Brackets</li>
+        <li>food carving</li>
+        <li>cooking</li>
+        <li>photography</li>
+      </ul>
+      
+      <ul>
+        <li>nail design</li>
+        <li>yoga</li>
+        <li>ocean</li>
+        <li>seafood</li>
+      
+      </ul>
+      <ul>
+        <li>usefull</li>
+        <li>beautiful</li>
+        <li>here and now</li>
       </ul>
     </div>
-    <div class="skills">
-      <h3>Skills</h3>
-      <ul>
-        <li>Figma</li>
-        <li>Miro</li>
-        <li>InVision</li>
-        <li>HTML/CSS</li>
-        <li>VS Code</li>
-        <li>WordPress</li>
-        <li>Bootstrap</li>
-        <li>Github</li>
-        <li>Codepen</li>
-        <li>Brackets</li>
+  </div>
+  </section>
+  <!-- Footer -->
+ <footer class="page-footer font-small white pt-4 ">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <div class="container-fluid"id="social">
+      <ul class="social-icons-footer">
+        <li id="facebook">
+          <a href="https://www.facebook.com/shahane.bakunts"><img src="symbols/facebook.png" alt="facebook" /></a>
+        </li>
+        <li id="twitter">
+          <a href="#"><img src="symbols/twitter.png" alt="twitter" /></a> 
+        </li>
+        <li id="behance">
+          <a href="#"><img src="symbols/behance.png" alt="behance" /></a>
+        </li>
+        <li id="github">
+          <a href="https://github.com/shahane-bakunts/shahane-bakunts.github.io"><img src="symbols/github.png" alt="github" /></li></a>
       </ul>
-    </div>
     </div>
 
-  </section>
-      <div class="habbits">
-        <ul>
-          <li>food carving</li>
-          <li>cooking</li>
-          <li>photography</li>
-          <li>nail design</li>
-          <li>yoga</li>
-          <li>ocean</li>
-          <li>seafood</li>
-          <li>usefull</li>
-          <li>beautiful</li>
-          <li>here and now</li>
-        </ul>
-      </div>
-    </section>
+    <div>
+      <hr>
+      <div class="copy-logo-line">© 2020 Copyright:
+        <a href="#"> shahane-bakunts.com</a>
+        <a href="home.html">  <img src="images/SH-logo.png" class="footer-logo" height="60" alt="footer-logo"></a>
+    </div>
+    </div>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 </body>
 </html>

@@ -76,6 +76,9 @@ hr {
   padding:70px 5%;
 
 }
+.img-responsive{
+  position:relative;
+}
 .img-left{
   width: 90%;
   margin-top: 20px;
@@ -92,6 +95,9 @@ background-color: rgba(180, 158, 234, 0.1);
 }
 .delivereez{
 background-color: white;
+}
+.content {
+  position:relative;
 }
 
 /* .grid-item-3{
@@ -138,6 +144,9 @@ input[type="submit"]:hover {
   border-radius: 10px;
   box-shadow: (0 0 0 3px #271458);
 }
+.page-footer{
+  margin-top:100px;
+}
 
 @media only screen and (max-width: 800px) {
   
@@ -147,6 +156,7 @@ input[type="submit"]:hover {
     grid-template-columns: 1fr;
     padding:20px 10%;
   }
+
   
   /* .img-left{
     max-width: 100%;
