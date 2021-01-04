@@ -25,7 +25,6 @@ $(document).ready(function(){
         email.val('');
         subject.val('');
       }
-      // e.preventDefault();
     });
 
     $('#testa').click(function(e){
