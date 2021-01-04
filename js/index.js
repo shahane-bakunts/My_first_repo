@@ -11,7 +11,7 @@ $(document).ready(function(){
     });
 
     $('#contactForm').submit(function(e){
-
+      e.preventDefault();
       var fName = $('#fname');
       var email = $('#email');
       var subject = $('#subject');
@@ -25,7 +25,7 @@ $(document).ready(function(){
         email.val('');
         subject.val('');
       }
-      e.preventDefault();
+      // e.preventDefault();
     });
 
     $('#testa').click(function(e){
