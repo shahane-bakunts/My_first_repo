@@ -11,6 +11,7 @@ $(document).ready(function(){
     });
 
     $('#contactForm').submit(function(e){
+
       var fName = $('#fname');
       var email = $('#email');
       var subject = $('#subject');
@@ -18,10 +19,11 @@ $(document).ready(function(){
         alert('All fields are required');
       }
       else {
+        $('#successMessage').text(`Thank You ${fName.val()} for your message. I'll get back to you ASAP!`);
+
         fName.val('');
         email.val('');
         subject.val('');
-        alert(`Thank You ${fname} for your message. I'll get back to you ASAP!`);
       }
       e.preventDefault();
     });
@@ -29,7 +31,10 @@ $(document).ready(function(){
     $('#testa').click(function(e){
       e.preventDefault();
       $('#testa').text('Clicked');
+      //$('#fname').val('Hello');
+      //$('#email').val();
+      console.log($('#fname'));
     });
   });
 
-  $(".content) .delay(300).fadeIn(800).animate({top: "-50px},);
+  //$(".content) .delay(300).fadeIn(800).animate({top: "-50px},);
